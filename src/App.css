@@ -1,38 +1,82 @@
-.App {
-  text-align: center;
+html, body {
+    height: 100%;
+    background-color: rgb(249, 248, 250);
+    padding: 0;
+    margin: 0;
+    font-size: 13px;
+    font-family: Arial;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*{
+    padding: 0;
+    margin: 0;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Home{
+    margin-top: 50px;
+    width: 100%;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.content-con{
+    padding: 0 40px;
 }
-
-.App-link {
-  color: #61dafb;
+.content{
+    border-radius: 13px;
+    padding: 13px;
+    background: #FFFFFF;
+    min-height: 400px;
+    box-shadow: 2px 2px 13px -4px rgba(0,0,0,0.75);
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.menubar{
+    border-radius: 13px;
+    margin: 0 0 0 40px;
+    background: #FFFFFF;
+    min-height: 370px;
+    text-align: center;
+    box-shadow: 2px 2px 13px -4px rgba(0,0,0,0.75);
+    font-size: 20px;
+}
+.menu-header{
+    border-radius: 13px 13px 0 0;
+    min-height: 30px;
+    color: white;
+    background-image: linear-gradient(-20deg, #fc6076 0%, #ff9a44 100%);
+}
+.menu-title{
+    color: rgb(156, 156, 156);
+    font-size: 15px;
+}
+.img-content{
+    width: 200px;
+    height: 180px;
+    overflow: hidden;
+    object-fit: cover;
+    margin-right: 32px;
+    margin-bottom: 10px;
+}
+.br-menu{
+    height: 3px;
+    background-color: red;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+input[type="file"] {
+    display: none;
+}
+.custom-file-upload {
+    border: 1.1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 13px;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+.icon-sidebar-header{
+    width: 30px;
+    margin-top: 50px;
+    height: 30px;
+}
+.icon-sidebar{
+    width: 30px;
+    margin-top: 20px;
+    height: 30px;
 }
